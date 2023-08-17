@@ -1,0 +1,299 @@
+@import "../../data/styles.css";
+
+.homepage-logo-container {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-top: 130px;
+}
+
+.homepage-container {
+	padding-top: 25px;
+}
+
+.homepage-first-area {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.homepage-first-area-left-side {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.homepage-title {
+	width: 85% !important;
+}
+
+.homepage-subtitle {
+	width: 85% !important;
+}
+
+.homepage-first-area-right-side {
+	display: flex;
+	align-items: center;
+}
+
+.homepage-image-container {
+	width: 370px;
+	height: 370px;
+}
+
+.homepage-image-wrapper {
+	overflow: hidden;
+	border-radius: 10%;
+	transform: rotate(3deg);
+}
+
+.homepage-image-wrapper img {
+	width: 100%;
+}
+
+.homepage-socials {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-top: 30px;
+}
+
+.homepage-social-icon {
+	padding-right: 20px;
+	font-size: 25px;
+	transition: color 0.2s ease-in-out;
+	color: var(--secondary-color);
+}
+
+.homepage-social-icon:hover {
+	color: var(--primary-color);
+}
+
+.homepage-after-title {
+	display: flex;
+}
+
+.homepage-projects {
+	flex-basis: 300px;
+	padding-top: 40px;
+}
+
+.homepage-articles {
+	flex-basis: 900px;
+	padding-top: 30px;
+	margin-left: -30px;
+}
+
+.homepage-article {
+	padding-bottom: 5px;
+}
+
+.homepage-works {
+	flex-basis: 600px;
+	padding-top: 30px;
+}
+
+.skill-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	margin-top: 20px;
+  }
+
+/*about */
+
+.page-content {
+	padding: 20px;
+	/* Add more styles as needed */
+  }
+
+  about-image-container.content-wrapper {
+	display: flex;
+	flex-direction: column;
+	/* Add more styles as needed */
+  }
+
+.about-logo-container {
+	display: flex;
+	justify-content: center;
+	padding-top: 25px;
+}
+
+.about-logo {
+	display: flex;
+	position: fixed;
+	border: 1px solid white;
+	border-radius: 50%;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	top: 20px;
+	left:20px;
+}
+
+.about-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+	padding-top: 120px;
+}
+
+.bold{
+font-size: 2.5rem;
+font-weight:700;
+}
+.light{
+	font-size: 1.2rem;
+	font-weight:300;
+	}
+
+.about-main {
+	display: flex;
+}
+
+.about-right-side {
+	 flex-basis: 50%;
+}
+
+.about-title {
+	width: 100% !important;
+}
+
+.about-subtitle {
+	width: 80% !important;
+}
+
+.about-left-side {
+	flex-basis: 50%;
+}
+
+.about-image-container {
+	width: 370px;
+	
+}
+
+.about-image-wrapper {
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+	border-radius: 10%;
+	transform: rotate(3deg);
+}
+
+.about-image-wrapper img {
+	display: block;
+	width: 100%;
+}
+
+.about-socials {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.about-socials-mobile {
+	display: none;
+}
+
+@media (max-width: 1024px) {
+	.about-logo {
+		z-index: 100;
+	}
+
+	.about-main {
+		flex-direction: column;
+	}
+
+	.about-subtitle {
+		padding-top: 20px !important;
+	}
+
+	.about-left-side {
+		flex-basis: 100%;
+		order: 1;
+	}
+
+	.about-right-side {
+		flex-basis: 100%;
+		order: 2;
+	}
+
+	.about-image-container {
+		padding-bottom: 40px;
+	}
+
+	.about-socials {
+		display: none;
+	}
+
+	.about-socials-mobile {
+		padding-top: 30px;
+		display: flex;
+	}
+}
+
+@media (max-width: 600px) {
+	.about-container {
+		padding-top: 60px;
+	}
+
+	.about-image-container {
+		width: 80%;
+	}
+}
+
+/*media query for homepage*/
+@media (max-width: 1024px) {
+	.homepage-first-area {
+		flex-direction: column;
+	}
+
+	.homepage-first-area-left-side {
+		display: flex;
+		flex-direction: column; /* Changed: set direction to column */
+		align-items: flex-start;
+		width: 100%;
+		order: 2;
+	}
+
+	.homepage-title {
+		width: 100% !important;
+		margin-top: 20px;
+		order: 2;
+	}
+
+	.homepage-subtitle {
+		width: 100% !important;
+		margin-top: 10px;
+		order: 3;
+	}
+
+	.homepage-first-area-right-side {
+		width: 100%;
+		order: 1;
+	}
+
+	.homepage-image-container {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		margin-left: 10px;
+		order: 1;
+	}
+
+	.homepage-after-title {
+		flex-direction: column;
+	}
+
+	.homepage-projects {
+		flex-basis: auto;
+	}
+
+	.homepage-articles {
+		flex-basis: auto;
+	}
+
+	.homepage-works {
+		flex-basis: auto;
+		margin-left: -25px;
+		margin-right: -25px;
+	}
+}

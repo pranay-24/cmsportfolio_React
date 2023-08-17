@@ -1,0 +1,74 @@
+{"aboutMe": {
+  "title": "I’m Pranay, I live in Canada, where I design the future.",
+  "description": "Passionate software developer with a strong focus on web development and user-friendly interfaces. Skilled in a variety of programming languages and technologies."
+},
+  "skills": [
+  {
+    "name": "JavaScript",
+    "description": "Proficient in front-end and back-end JavaScript development."
+  },
+  {
+    "name": "React.js",
+    "description": "Experienced in building dynamic and responsive user interfaces with React."
+  },
+  {
+    "name": "Node.js",
+    "description": "Skilled in server-side development using Node.js and Express."
+  },
+  {
+    "name": "Python",
+    "description": "Knowledgeable in Python programming and scripting."
+  },
+  {
+    "name": "Java",
+    "description": "Experienced in Java application development."
+  },
+  {
+    "name": "HTML/CSS",
+    "description": "Strong foundation in HTML and CSS for web development."
+  }],
+
+    "socialMediaLinks": [
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://www.twitter.com/yourusername"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/pranay.mangal.3/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/pranay-24"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/channel/yourchannel"
+      },
+      {
+        "name": "Pinterest",
+        "url": "https://www.pinterest.com/yourusername"
+      },
+      {
+        "name": "Snapchat",
+        "url": "https://www.snapchat.com/add/yourusername"
+      },
+      {
+        "name": "TikTok",
+        "url": "https://www.tiktok.com/@yourusername"
+      },
+      {
+        "name": "Reddit",
+        "url": "https://www.reddit.com/user/yourusername"
+      }
+    ]
+  }
+  
