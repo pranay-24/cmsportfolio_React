@@ -11,7 +11,7 @@ const AllProjects = () => {
 
     useEffect(() => {
         // Fetch social media links from the JSON file
-        fetch("http://localhost:5173/data.json")
+        fetch("data.json")
           .then((response) => response.json())
           .then((data) => {
            
