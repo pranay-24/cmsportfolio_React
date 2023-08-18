@@ -12,3 +12,14 @@
 	--secondary-font: "Roboto", sans-serif;
 	/* --------------------- */
 }
+
+
+.bold{
+font-size: 2.5rem;
+font-weight:700;
+}
+.light{
+	font-size: 1.2rem;
+	font-weight:300;
+	}
+	

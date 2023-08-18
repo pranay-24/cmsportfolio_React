@@ -1,6 +1,7 @@
 {"aboutMe": {
   "title": "I’m Pranay, I live in Canada, where I design the future.",
-  "description": "Passionate software developer with a strong focus on web development and user-friendly interfaces. Skilled in a variety of programming languages and technologies."
+  "description": "Passionate software developer with a strong focus on web development and user-friendly interfaces. Skilled in a variety of programming languages and technologies.",
+  "email":"mangal.pranay@gmail.com"
 },
   "skills": [
   {
@@ -27,6 +28,28 @@
     "name": "HTML/CSS",
     "description": "Strong foundation in HTML and CSS for web development."
   }],
+  
+  "projects": [
+    {
+      "title": "Collateral Management App",
+      "description": "Collateral App is a Node.JS application which is used to track the real time value of collaterals pledged. The collaterals could be Stocks and Crypto currency. Marketstack and CoinAPI are used to fetch real time prices.Concepts used are Server Side rendering, API fetch etc.",
+      "linkText": "View Project",
+      "link": "https://github.com/pranay-24/Collateral-app"
+    },
+    {
+      "title": "LinkedIn Message Generator",
+      "description": "An app to generate text messages which could be copied and used on LinkedIn to send connection requests.",
+      "linkText": "View deployed Project",
+      "link": "http://codepranay.great-site.net/LinkedIn_Message_Generator/?i=1"
+    },
+    {
+      "title": "Portfolio Manager App",
+      "description": "Its a simple .NET app prortfolio management tool, where one can add the stocks , ETFs etc. I used concepts like ASP.NET MVC, Entity Framework and used Alpha Vantage API to fetch real time prices of stocks.",
+      "linkText": "View Project",
+      "link": "https://github.com/pranay-24/Portfolio-Management"
+    }
+   
+  ],
 
     "socialMediaLinks": [
       {
